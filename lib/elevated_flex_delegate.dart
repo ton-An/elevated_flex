@@ -27,9 +27,9 @@ class _ElevatedFlexDelegate extends BoxyDelegate {
   }
 
   // inner calculation
-  late final int childrenCount;
-  late final double width;
-  late final double height;
+  late int childrenCount;
+  late double width;
+  late double height;
 
   MainAxisAlignment get effectiveMainAxisAlignment {
     // reverse mainAxisAlignment for up vertical direction
